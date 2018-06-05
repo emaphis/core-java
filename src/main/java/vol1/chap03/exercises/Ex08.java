@@ -2,7 +2,7 @@
  * Write a program that reads a string and prints all of its nonempty
  * substrings.
  */
-package vol1.chap02.exercises;
+package vol1.chap03.exercises;
 
 import java.util.Scanner;
 

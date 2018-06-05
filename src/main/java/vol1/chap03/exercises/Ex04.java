@@ -2,7 +2,7 @@
  * Write a program that prints the smallest and largest positive double values.
  * Hint: Look up Math.nextUp in the Java API. 
  */
-package vol1.chap02.exercises;
+package vol1.chap03.exercises;
 
 /**
  * Print the largest and smallest positive double values

@@ -4,7 +4,7 @@
  * difference, product, quotient, and remainder. Do not convert them to
  * long values.
  */
-package vol1.chap02.exercises;
+package vol1.chap03.exercises;
 
 import java.util.Scanner;
 

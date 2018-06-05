@@ -1,7 +1,7 @@
 /*
  * Flow control example
  */
-package vol1.chap02.sec08;
+package vol1.chap03.sec08;
 
 import java.util.Scanner;
 

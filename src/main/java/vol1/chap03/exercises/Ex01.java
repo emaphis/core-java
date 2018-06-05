@@ -1,7 +1,7 @@
 /*
  * Read in an integer and print out in different formats.
  */
-package vol1.chap02.exercises;
+package vol1.chap03.exercises;
 
 import java.util.Scanner;
 

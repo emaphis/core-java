@@ -2,7 +2,7 @@
  * This program displays a greeting for the reader.
  * @author Ed Maphis
  */
-package vol1.chap02.sec02;
+package vol1.chap03.sec02;
 
 /**
  *

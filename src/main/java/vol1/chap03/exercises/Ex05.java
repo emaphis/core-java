@@ -2,7 +2,7 @@
  * What happens when you cast a double to an int that is larger than the
  * largest possible int value? Try it out.
  */
-package vol1.chap02.exercises;
+package vol1.chap03.exercises;
 
 /**
  * Larger than large

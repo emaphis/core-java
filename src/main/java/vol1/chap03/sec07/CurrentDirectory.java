@@ -1,7 +1,7 @@
 /*
  * Print the current working directory
  */
-package vol1.chap02.sec07;
+package vol1.chap03.sec07;
 
 import java.io.File;
 

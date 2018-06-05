@@ -1,7 +1,7 @@
 /*
  * String examples
  */
-package vol1.chap02.sec06;
+package vol1.chap03.sec06;
 
 /**
  * Strings

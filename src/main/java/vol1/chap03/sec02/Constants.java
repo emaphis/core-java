@@ -1,7 +1,7 @@
 /*
  * Demonstrating constant definitions
  */
-package vol1.chap02.sec02;
+package vol1.chap03.sec02;
 
 /**
  * @author emaphis

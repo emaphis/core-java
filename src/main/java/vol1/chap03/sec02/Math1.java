@@ -1,7 +1,7 @@
 /*
  * Let's test some Math functions
  */
-package vol1.chap02.sec02;
+package vol1.chap03.sec02;
 
 /**
  * Static math functions in Math class.

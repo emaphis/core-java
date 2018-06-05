@@ -1,7 +1,7 @@
 /*
  * Example code for BigInteger class
  */
-package vol1.chap02.sec08;
+package vol1.chap03.sec08;
 
 import java.math.BigInteger;
 import java.util.Scanner;
