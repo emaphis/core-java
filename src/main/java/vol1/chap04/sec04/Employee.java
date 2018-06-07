@@ -14,7 +14,7 @@ public class Employee {
 
    // instance fields
    private final String name;
-   private final double salary;
+   private double salary;
    private int id = 0;
 
    public Employee(String n, double s) {
@@ -47,5 +47,10 @@ public class Employee {
    public static void main(String[] args) {
       Employee e = new Employee("Harry", 50000);
       System.out.println(e.getName() + " " + e.getSalary());
+   }
+
+   void raiseSalary(int byPercent) {
+      double raise = salary * byPercent / 100;
+      salary += raise;
    }
 }
