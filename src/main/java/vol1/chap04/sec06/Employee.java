@@ -4,7 +4,7 @@
  */
 package vol1.chap04.sec06;
 
-import java.time.LocalDate;
+//import java.time.LocalDate;
 import java.util.Random;
 
 /**
@@ -19,8 +19,7 @@ public class Employee {
    private String name = "";  // instance field initialization
    private double salary;
 
-   // static initialization block
-   static {
+     static {
       Random generator = new Random();
       // Set nextId to a random between 0 and 9999;
       nextId = generator.nextInt(10000);
