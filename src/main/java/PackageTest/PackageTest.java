@@ -1,5 +1,6 @@
 /*
  * Exercising the Package system.
+ * Chapter 4 Section 7s
  */
 package PackageTest;
 

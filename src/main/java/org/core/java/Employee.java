@@ -1,5 +1,6 @@
 /*
  * Package example
+ * Chapter 4 Section 7
  */
 package org.core.java;
 
