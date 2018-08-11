@@ -47,7 +47,7 @@ public class CalendarExercise {
             System.out.print(" ");
          }
          date = date.plusDays(1);
-         if (date.getDayOfWeek().getValue() == 1) {
+         if (date.getDayOfWeek().getValue() == 7) {
             System.out.println();
          }
       }
