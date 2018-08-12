@@ -1,6 +1,6 @@
 /*
- * Manager Employee inherateance example
- * Chapter 5 Section 1 - Inheratance.
+ * Manager Employee inheratance example
+ * Chapter 5 Section 1 - Inheretance.
  */
 package vol1.chap05.sec01;
 
@@ -15,11 +15,9 @@ public class Employee {
    // instance field
    private String name = "";  // instance field initialization
    private double salary;
-   private LocalDate hireDay;
+   private final LocalDate hireDay;
 
-   // three over loaded constructors
    public Employee(String name, double salary, int year, int month, int day) {
-      // super(name, salary, year, month, day)
       this.name = name;
       this.salary = salary;
       hireDay = LocalDate.of(year, month, day);
