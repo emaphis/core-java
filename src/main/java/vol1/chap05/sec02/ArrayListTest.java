@@ -2,7 +2,7 @@
  * Chapter 5 Section 3
  * ArrayList
  */
-package vol1.chap05.sec01;
+package vol1.chap05.sec02;
 
 import java.util.ArrayList;
 
