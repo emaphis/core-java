@@ -20,10 +20,7 @@ public class Rectangle extends Shape {
 
    @Override
    public Point getCenter() {
-      Line diagonal = new Line(topLeft)
-      Point center()
+      Line diagonal = new Line(getPoint(), new Point(width,height));
+      return diagonal.getCenter();
    }
-
-
-
 }
