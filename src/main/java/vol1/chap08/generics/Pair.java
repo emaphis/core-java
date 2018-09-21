@@ -11,6 +11,8 @@ package vol1.chap08.generics;
  * @param <V>
  */
 public interface Pair<K, V> {
+   public void setKey(K key);
+   public void setValue(V value);
    public K getKey();
    public V getValue();
 }

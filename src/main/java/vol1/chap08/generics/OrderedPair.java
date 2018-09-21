@@ -20,6 +20,16 @@ public class OrderedPair<K, V> implements Pair<K, V> {
    }
 
    @Override
+   public void setKey(K key) {
+      this.key = key;
+   }
+
+   @Override
+   public void setValue(V value) {
+      this.value = value;
+   }
+
+   @Override
    public K getKey() {
       return key;
    }
@@ -28,5 +38,4 @@ public class OrderedPair<K, V> implements Pair<K, V> {
    public V getValue() {
       return value;
    }
-
 }

@@ -32,7 +32,25 @@ public class PairTest {
       //intBox = rawBox;
    }
 
+   public static void testCompare() {
+      Pair<Integer, String> p1 = new OrderedPair<>(1, "apple");
+      Pair<Integer, String> p2 = new OrderedPair<>(2, "pear");
+      Pair<Integer, String> p3 = new OrderedPair<>(1, "apple");
+      boolean different = Util.compare(p1, p2);
+      boolean same = Util.compare(p1, p3);
+      System.out.println(different + " and " + same);
+   }
+
+   // bounded type parameters
+   public static void testInspect() {
+      Box<Integer> intBox = new Box<>();
+      //intBox.set(new Integer(10));
+      //intBox.inspect("some text");
+   }
+
    public static void main(String[] args) {
       testRawType();
+      testCompare();
+      //testInspect();
    }
 }
