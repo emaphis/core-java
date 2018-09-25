@@ -1,5 +1,5 @@
 /*
- * Chapter 6 Classes
+ * Chapter 8 Generics
  * Section generics
  */
 package vol1.chap08.generics;
