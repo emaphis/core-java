@@ -5,7 +5,8 @@
 package vol1.chap08.exercises;
 
 /**
- * Exercise 2
+ * Exercise 9
+ * Wont compile with 'static'
  * @author emaphis
  * @param <T>
  */
