@@ -37,7 +37,7 @@ public class LinkedListTest {
 
       System.out.println(a);
 
-      // remove every secon word from b
+      // remove every second word from b
       bIter = b.iterator();
       while (bIter.hasNext()) {
          bIter.next();   // skip next element

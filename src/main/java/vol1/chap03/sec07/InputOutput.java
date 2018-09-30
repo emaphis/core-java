@@ -1,5 +1,6 @@
 /*
- * Input Output handling
+ * Chapter 3 Fundamentals
+ * Section 7 Input Output handling
  */
 package vol1.chap03.sec07;
 
@@ -28,5 +29,5 @@ public class InputOutput {
         int age = in.nextInt();
         System.out.println("Age: " + age);
     }
-    
+
 }
