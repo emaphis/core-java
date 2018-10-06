@@ -1,5 +1,5 @@
 /*
- * Chapter 9 Colections
+ * Chapter 9 Collections
  * Section vol1.chap09.sec03
  */
 package vol1.chap09.sec03;
