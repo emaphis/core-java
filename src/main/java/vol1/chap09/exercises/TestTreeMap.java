@@ -18,7 +18,7 @@ public class TestTreeMap {
       try {
          Scanner scanner = new Scanner(file);
          while (scanner.hasNext()) {
-            String word = scanner.next();
+            String word = scanner.next().toLowerCase();
             map.merge(word, 1, (m,n) -> Integer.sum(m, n));
          }
       } catch(FileNotFoundException ex) {
@@ -29,7 +29,7 @@ public class TestTreeMap {
    }
    public static void main(String[] args) {
       //System.out.println(System.getProperty("user.dir"));
-      File file = new File(".\\src\\main\\resources\\LoremIpsum.txt");
+      File file = new File(".\\src\\main\\resources\\words.txt");
       System.out.println(file.exists());
       TreeMap<String, Integer> wordMap = countWords(file);
 
