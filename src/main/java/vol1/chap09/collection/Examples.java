@@ -16,10 +16,16 @@ public class Examples {
             new ArrayList<>(Arrays.asList("aaa", "bbb", "ccc"));
       String[] sa = cs.toArray(new String[0]);
 
+      System.out.println(Arrays.toString(sa));
+
       // empty arrays
       final String[] EMPTY = new String[0];
       String[] sa1 = cs.toArray(EMPTY);
 
-      
+      System.out.println(Arrays.toString(sa1));
+   }
+
+   public static void main(String[] args) {
+      examples();
    }
 }

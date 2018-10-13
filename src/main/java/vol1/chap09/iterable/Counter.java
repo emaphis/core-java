@@ -7,7 +7,7 @@ package vol1.chap09.iterable;
 import java.util.Iterator;
 
 /**
- * Counter class
+ * Counter class implements Iterable interface
  * @author emaphis
  */
 class Counter implements Iterable<Integer> {
