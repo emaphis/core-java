@@ -52,7 +52,7 @@ public class DrawComponent extends JComponent {
 
    @Override
    public Dimension getPreferredSize() {
-      return new Dimension(DEFAULT_WIDTH, DEFAULT_WIDTH);
+      return new Dimension(DEFAULT_WIDTH, DEFAULT_HEIGHT);
    }
 
 
