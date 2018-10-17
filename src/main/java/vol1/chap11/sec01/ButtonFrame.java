@@ -1,5 +1,5 @@
 /*
- * Chapter 11 Even Handling
+ * Chapter 11 Event Handling
  * Section 1 Events
  */
 package vol1.chap11.sec01;
