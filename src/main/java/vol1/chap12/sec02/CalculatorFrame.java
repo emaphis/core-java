@@ -2,7 +2,7 @@
  * Chapter 12 User Interface Components
  * Section 2 Layout managment
  */
-package vol1.chap12.sect02;
+package vol1.chap12.sec02;
 
 
 import javax.swing.*;

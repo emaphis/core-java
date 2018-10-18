@@ -2,7 +2,7 @@
  * Chapter 12 User Interface Components
  * Section 2 Grid Layout
  */
-package vol1.chap12.sect02;
+package vol1.chap12.sec02;
 
 import java.awt.*;
 import java.awt.event.*;
