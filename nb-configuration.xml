@@ -36,5 +36,6 @@ Any value defined here will override the pom.xml file value but is only applicab
         <org-netbeans-spi-editor-hints-projects.perProjectHintSettingsEnabled>true</org-netbeans-spi-editor-hints-projects.perProjectHintSettingsEnabled>
         <com-junichi11-netbeans-changelf.show-dialog>true</com-junichi11-netbeans-changelf.show-dialog>
         <org-netbeans-modules-javascript2-requirejs.enabled>true</org-netbeans-modules-javascript2-requirejs.enabled>
+        <com-junichi11-netbeans-changelf.enable>false</com-junichi11-netbeans-changelf.enable>
     </properties>
 </project-shared-configuration>
