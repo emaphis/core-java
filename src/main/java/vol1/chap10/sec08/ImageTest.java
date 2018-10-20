@@ -2,7 +2,7 @@
  * Chapter 10 Graphics Programming
  * Section 8 Image
  */
-package vol1.chap10.sect08;
+package vol1.chap10.sec08;
 
 
 import java.awt.*;
