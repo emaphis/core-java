@@ -1,3 +1,5 @@
+package impatient.ch01.exercises;
+
 /*
  * Exercises Chapter 1
  * Ex14.java
@@ -26,14 +28,14 @@ public class Ex14 {
       ArrayList<ArrayList<Integer>> square = new ArrayList<ArrayList<Integer>>();
       Scanner in = new Scanner(System.in);
       boolean ret = false;
+      int size = 0;
 
       // load square
-      System.out.println("Enter the square: ");
+      System.out.println("Enter the square 'end' to quit: ");
       while (in.hasNext()) {
          String line = in.nextLine();
-         // break on empty line
-         if (line.length() == 0) break;
-         System.out.println("length " + line.length());
+         // break on 'end'
+         if (line.equals("end")) break;
 
          String[] elements = line.split(" ");
          ArrayList<Integer> nums = new ArrayList<>();
@@ -41,7 +43,7 @@ public class Ex14 {
             nums.add(Integer.parseInt(str));
          }
          square.add(nums);
-         System.out.println("*** here a ****");
+         size++;
       }
 
       System.out.println("square: " + square.toString());
