@@ -1,7 +1,7 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Chapter 2 Object-Oriented Programming
+ * Sec 2.4 Static Variables and Methods
+ * StaticMethodDemo.java
  */
 
 package impatient.ch02.sec04;
@@ -9,7 +9,7 @@ package impatient.ch02.sec04;
 import java.text.NumberFormat;
 
 /**
- *
+ * Factory methods
  * @author emaphis
  */
 public class StaticMethodDemo {
