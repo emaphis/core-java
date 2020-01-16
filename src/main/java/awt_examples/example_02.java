@@ -22,6 +22,15 @@ public class example_02 extends Frame
    }
 
    CircleCanvas cirlce;
+   Scrollbar scrollR;
+   Scrollbar scrollG;
+   Scrollbar scrollB;
+
+   public example_02() throws HeadlessException {
+      setSize(500, 250);
+      MenuBar menuBar = new MenuBar();
+   }
+
 
    @Override
    public void actionPerformed(ActionEvent e) {
