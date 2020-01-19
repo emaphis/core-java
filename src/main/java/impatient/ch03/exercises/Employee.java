@@ -1,6 +1,6 @@
 /*
  * Chapter 3 Interfaces and Lambda Expressions
- * Exercises
+ * Exercises 2, 15
  */
 
 package impatient.ch03.exercises;
