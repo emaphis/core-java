@@ -8,7 +8,6 @@ package impatient.ch03.sec05;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 import java.util.Objects;
 
 /**
@@ -40,6 +39,7 @@ public class ReferenceDemo {
       names.add("Paul");
       names.add("Mary");
 
+      // Building employees out of strings.
       Employee[] employees = names.stream().map(Employee::new).toArray(Employee[]::new);
       for (Employee employee : employees) {
          System.out.println(employee.getName());

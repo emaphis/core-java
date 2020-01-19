@@ -1,16 +1,17 @@
 /*
  * Chapter 3 Interfaces and Lambda Expressions
- * Sec 5 Method and Constructor References.
- * Constructor References.
+ * Exercises
  */
-package impatient.ch03.sec05;
 
+package impatient.ch03.exercises;
 
 /**
  *
  * @author emaphis
  */
-public class Employee {
+
+
+public class Employee implements Measurable {
    private final String name;
    private double salary;
 
@@ -40,4 +41,8 @@ public class Employee {
       return salary;
    }
 
+   @Override
+   public double getMeasure() {
+      return getSalary();
+   }
 }
