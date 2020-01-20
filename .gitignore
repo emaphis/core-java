@@ -2,3 +2,6 @@
 .classpath
 .project
 .settings/*
+licenseheader.txt
+nb-configuration.xml
+nbactions.xml
