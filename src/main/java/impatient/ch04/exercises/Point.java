@@ -51,7 +51,7 @@ public class Point implements Cloneable {
    }
 
    @Override
-   protected Point clone() throws CloneNotSupportedException {
+   protected Point clone() {
       return new Point(this.x, this.y);
    }
 

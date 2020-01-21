@@ -37,7 +37,7 @@ public class Line extends Shape implements Cloneable {
 
    @Override
    public String toString() {
-      return "Line: From " + this.getPoint() + ", To "  + to;
+      return "Linet [from=" + this.getPoint() + ", to="  + to + "]";
    }
 
    @Override

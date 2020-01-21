@@ -29,7 +29,7 @@ public class Circle extends Shape implements Cloneable {
 
    @Override
    public String toString() {
-      return "Circle: " + this.getCenter().toString() + ", Radius=" + radius;
+      return "Circle: [center=" + this.getCenter().toString() + ", radius=" + radius + "]";
    }
 
    @Override

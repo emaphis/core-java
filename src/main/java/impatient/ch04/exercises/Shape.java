@@ -50,5 +50,4 @@ public abstract class Shape implements Cloneable {
       return hash;
    }
 
-
 }

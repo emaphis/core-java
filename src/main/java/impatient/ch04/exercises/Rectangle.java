@@ -32,7 +32,7 @@ public class Rectangle extends Shape {
 
    @Override
    public String toString() {
-      return "Rectangle: TopLeft " + this.getPoint() + ", Width=" + this.width + ", Height=" + this.height;
+      return "Rectangle: [topleft=" + this.getPoint() + ", width=" + this.width + ", height=" + this.height + "]";
     }
 
 
