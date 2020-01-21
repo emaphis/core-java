@@ -2,6 +2,7 @@
  * Chapter 4  Inheritance and Reflection
  * Sec 5  Reflection
  * Enumerating Class Members
+ * Also, exercise 10.
  */
 package impatient.ch04.sec05;
 
@@ -19,20 +20,23 @@ public class MethodPrinter {
          System.out.print("Class name: ");
          Scanner in = new Scanner(System.in);
          String className = in.nextLine();
-
          Class<?> cl = Class.forName(className);
-         while (cl != null) {
-            for (Method m : cl.getDeclaredMethods()) {
-               System.out.println(
-                     Modifier.toString( m.getModifiers()) + " " +
-                           m.getReturnType().getCanonicalName() + " " +
-                           m.getName() +
-                           Arrays.toString(m.getParameters()));
-            }
-            cl = cl.getSuperclass();
-         }
+         printMethod(cl);
       } catch (ClassNotFoundException ex) {
         System.err.println(ex.toString());
+      }
+   }
+
+   public static void printMethod(Class<?> cl) {
+      while (cl != null) {
+         for (Method m : cl.getDeclaredMethods()) {
+            System.out.println(
+                  Modifier.toString( m.getModifiers()) + " " +
+                        m.getReturnType().getCanonicalName() + " " +
+                        m.getName() +
+                        Arrays.toString(m.getParameters()));
+         }
+         cl = cl.getSuperclass();
       }
    }
 }
