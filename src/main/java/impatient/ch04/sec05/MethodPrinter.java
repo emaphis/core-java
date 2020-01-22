@@ -28,14 +28,16 @@ public class MethodPrinter {
    }
 
    public static void printMethod(Class<?> cl) {
+      StringBuilder builder = new StringBuilder();
       while (cl != null) {
          for (Method m : cl.getDeclaredMethods()) {
-            System.out.println(
+            builder.append(
                   Modifier.toString( m.getModifiers()) + " " +
                         m.getReturnType().getCanonicalName() + " " +
                         m.getName() +
-                        Arrays.toString(m.getParameters()));
+                        Arrays.toString(m.getParameters()) + "\n");
          }
+         System.out.println(builder.toString());
          cl = cl.getSuperclass();
       }
    }

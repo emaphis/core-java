@@ -20,8 +20,21 @@ public class Ex10 {
 
    public static void main(String[] args) {
       int[] array = new int[3];
-   //   System.out.println("...." + array.getClass().getCanonicalName());
-      //String className = "int[]";
       MethodPrinter.printMethod(array.getClass());
    }
 }
+
+/*
+protected void finalize[]
+public final native void wait[long arg0]
+public final void wait[long arg0, int arg1]
+public final void wait[]
+public boolean equals[java.lang.Object arg0]
+public java.lang.String toString[]
+public native int hashCode[]
+public final native java.lang.Class getClass[]
+protected native java.lang.Object clone[]
+public final native void notify[]
+public final native void notifyAll[]
+private static native void registerNatives[]
+*/
