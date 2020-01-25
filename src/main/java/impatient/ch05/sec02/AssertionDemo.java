@@ -16,7 +16,7 @@ public class AssertionDemo {
 
    public  static double[] solveQuadraticEquation(double a, double b, double c) {
       double discriminant = b * b - 4 * a * c;
-      assert discriminant >= 0;
+      assert discriminant >= 0 : "discriminant is less than zero";
       assert a != 0 : "a == 0; not a quadratic equation";
       double discrRoot = Math.sqrt(discriminant);
       return new double[] {
