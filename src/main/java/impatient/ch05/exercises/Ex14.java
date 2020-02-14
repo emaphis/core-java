@@ -6,6 +6,7 @@ package impatient.ch05.exercises;
 
 import java.io.IOException;
 import java.util.Arrays;
+import java.util.logging.ConsoleHandler;
 import java.util.logging.FileHandler;
 import java.util.logging.Logger;
 import java.util.logging.Filter;
@@ -26,12 +27,12 @@ public class Ex14 {
    static Logger createCustomLogger() {
       String[] blackBalled = new String[] {"sex", "drugs", "C++" };
       Filter filter = (line) ->
-            Arrays.stream(blackBalled).anyMatch(predicate)
+            Arrays.stream(blackBalled).anyMatch(predicate);
       Logger logger = Logger.getLogger(Ex13.class.getSimpleName());
       logger.setUseParentHandlers(false);
       logger.addHandler(new ConsoleHandler());
       logger.setFilter(filter);
-      Arrays.stream(blackBalled)
+      Arrays.stream(blackBalled);
 
    }
 
@@ -54,7 +55,7 @@ public class Ex14 {
 
 
       public void filter() {
-         
+
       }
    }
 }

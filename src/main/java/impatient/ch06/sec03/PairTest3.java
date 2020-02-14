@@ -11,4 +11,8 @@ package impatient.ch06.sec03;
  */
 public class PairTest3 {
 
+   public static void main(String[] args) {
+      
+   }
+
 }

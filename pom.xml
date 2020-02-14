@@ -23,7 +23,7 @@
             <configuration>
                <release>${java.version}</release>
                <showDeprecation>true</showDeprecation>
-               <debug>true</debug>
+               <debug>false</debug>
             </configuration>
          </plugin>
       </plugins>
