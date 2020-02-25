@@ -27,7 +27,7 @@ public class Generics1 {
       words.add("Hello ");
       words.add("world!");
       String str = words.get(0) + words.get(1);
-      System.out.println(str);
+      assert str.equals("Hello world!");
    }
 
    // without generics
@@ -36,6 +36,6 @@ public class Generics1 {
       words.add("Hello ");
       words.add("world!");
       String str = ((String)words.get(0)) + ((String)words.get(1));
-      System.out.println(str);
+      assert str.equals("Hello world!");
    }
 }

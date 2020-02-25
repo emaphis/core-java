@@ -1,6 +1,6 @@
 /*
  * Chapter 1 Generic Programming
- *
+ * pg. 3
  */
 package generics.ch01;
 
@@ -9,7 +9,6 @@ import java.util.Iterator;
 import java.util.List;
 
 /**
- *
  * @author emaphis
  */
 public class SumDemo {
@@ -23,7 +22,7 @@ public class SumDemo {
       List<Integer> ints = Arrays.asList(1,2,3);
       int sum = 0;
       for (int n : ints) { sum += n; }
-      System.out.println("sum = " + sum);
+      assert sum == 6;
    }
 
    // Before generics
@@ -36,6 +35,6 @@ public class SumDemo {
          int n = ((Integer)it.next()).intValue();
          sum += n;
       }
-      System.out.println("sum = " + sum);
+      assert sum == 6;
    }
 }
