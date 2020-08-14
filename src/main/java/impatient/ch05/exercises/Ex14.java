@@ -26,14 +26,15 @@ public class Ex14 {
 
    static Logger createCustomLogger() {
       String[] blackBalled = new String[] {"sex", "drugs", "C++" };
-      Filter filter = (line) ->
-            Arrays.stream(blackBalled).anyMatch(predicate);
+//      Filter filter = (line) ->
+ //           Arrays.stream(blackBalled).anyMatch(predicate);
       Logger logger = Logger.getLogger(Ex13.class.getSimpleName());
       logger.setUseParentHandlers(false);
       logger.addHandler(new ConsoleHandler());
-      logger.setFilter(filter);
+   //   logger.setFilter(filter);
       Arrays.stream(blackBalled);
 
+      return logger;
    }
 
    public static class CustomLogger {

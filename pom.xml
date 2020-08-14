@@ -23,9 +23,6 @@
             <configuration>
                <release>${java.version}</release>
                <showDeprecation>true</showDeprecation>
-               <compilerArgs>
-                  <arg>-enableassertions</arg>
-               </compilerArgs>
                <debug>false</debug>
             </configuration>
          </plugin>
